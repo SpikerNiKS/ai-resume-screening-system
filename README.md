@@ -40,16 +40,26 @@ Streamlit
 ai-resume-screening-system
 │
 ├── data
-├── preprocessing
-├── nlp
-├── embeddings
-├── ranking
+│
+├── pipeline
+│   ├── resume_parser.py
+│   ├── text_cleaner.py
+│   ├── skill_extractor.py
+│   ├── embedding_generator.py
+│   ├── similarity_engine.py
+│   └── ranking_engine.py
+│
 ├── api
+│   └── app.py
+│
 ├── dashboard
+│   └── streamlit_app.py
+│
 ├── tests
+│
 ├── docs
-├── requirements.txt
-└── README.md
+│
+└── requirements.txt
 ```
 
 ---
