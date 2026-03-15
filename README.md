@@ -88,6 +88,23 @@ pip install -r requirements.txt
 
 ---
 
+## Quick Setup (Recommended)
+
+Clone the repository
+
+git clone https://github.com/YOUR_USERNAME/ai-resume-screening-system.git
+
+Enter the project directory
+
+cd ai-resume-screening-system
+
+Run the setup script
+
+setup_project.bat
+
+This will automatically create the virtual environment and install dependencies.
+
+
 ## Run API
 
 ```
